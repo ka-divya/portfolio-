@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Playground — Divya</title>
+<title>Playground, Divya</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -561,7 +561,7 @@
       <li><a href="playground.html" class="active">Playground</a></li>
       <li><a href="about.html#about">About</a></li>
       <li><a href="blog.html" class="wip">Blog</a></li>
-      <li><a href="#resume" class="external wip">Resume</a></li>
+      <li><a href="resume.pdf" class="external" target="_blank" rel="noopener">Resume</a></li>
     </ul>
   </nav>
 
@@ -571,7 +571,7 @@
     <!-- Hero -->
     <section class="playground-hero">
       <h1>playground</h1>
-      <p>doodle me something good — and send it my way 📮</p>
+      <p>doodle me something good, and send it my way 📮</p>
     </section>
 
     <!-- Drawing pad -->
@@ -642,7 +642,7 @@
       </div>
 
       <p class="pad-instruction">
-        Click "Send" and it'll download your doodle + open your email — just attach the file you just downloaded and hit send. ✨
+        Click "Send" and it'll download your doodle + open your email, just attach the file you just downloaded and hit send. ✨
       </p>
 
     </section>
@@ -671,7 +671,8 @@
           <p class="footer-col-label">Connect</p>
           <ul class="footer-links">
             <li><a href="mailto:ka.divya3@gmail.com">Email</a></li>
-            <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/divya-k-a-holla/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="resume.pdf" target="_blank" rel="noopener">Resume</a></li>
           </ul>
         </div>
         <div>
@@ -930,8 +931,8 @@
       const body = encodeURIComponent(
         `Hi Divya!\n\nI made you a doodle 🎨\n\n` +
         `My note: ${message}\n\n` +
-        `(I just downloaded the doodle — attaching it to this email now!)\n\n` +
-        `— ${name}`
+        `(I just downloaded the doodle, attaching it to this email now!)\n\n` +
+        `,  ${name}`
       );
       window.location.href = `mailto:ka.divya3@gmail.com?subject=${subject}&body=${body}`;
 
